@@ -1,0 +1,14 @@
+﻿<h2>Donation Successful</h2>
+
+<div class="alert alert-success">
+    <p>@ViewBag.Message</p>
+</div>
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Official Tax Certificate</h5>
+        <p class="card-text">Certificate Number: <strong>@ViewBag.Certificate</strong></p>
+        <p class="text-muted">Please keep this number for your tax records.</p>
+        <button class="btn btn-outline-primary" onclick="window.print()">Print Certificate</button>
+    </div>
+</div>
